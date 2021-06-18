@@ -6,6 +6,7 @@ This will generate sequence of barcodes based on the inputs provided. Outcome of
 3. Starting Number - Starting number in the sequence
 4. Count - Number of barcodes that are to be generated
 5. Steps- Step size for the sequence. Difference between previous number and the current number
+6. Barcode Digits - Length of each Barcode
 
 Page settings of the pdf will be based on the label size and page size that you define below
 1. Size of the label
