@@ -99,7 +99,7 @@ class ManualBarcodeSequenceGeneration:
         generated_file = page_size_fn()
         #print(generated_file)
         return generated_file
-if __name__ != "main":
+if __name__ == "main":
     seq_prefix = input("Enter prefix that should appear in the generated barcode(Optional)")
     seq_start = input("Enter Starting number of the sequence(mandatory)")
     seq_suffix = input("Enter Suffix that should appear in the generated barcode(Optional)")
